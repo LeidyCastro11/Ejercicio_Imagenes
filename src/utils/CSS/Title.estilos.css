@@ -4,9 +4,12 @@
     height: 15vh;
     justify-content: center;
     align-items: center;
+    background-color: darkred;
+    border: 2px solid blueviolet;
 }
 
 #principalTitle {
-    font-size: 35px;
-    color: blueviolet;
+    font-size: 45px;
+    color: black;
+    font-family: fantasy;
 }
