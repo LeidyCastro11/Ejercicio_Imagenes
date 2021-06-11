@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components'
+import PrimaryFont from './utils/fonts/Hind-Light.woff'
 
 const GlobalStyles = createGlobalStyle`
 .ContainerText {
@@ -8,6 +9,12 @@ const GlobalStyles = createGlobalStyle`
     margin: 10px;
     font-family: sans-serif;
     font-size: 17px;
+}
+
+.ContainerText p{
+    font-family: 'Hind';
+    font-size: 15px;
+    margin: 0 20px;
 }
 
 .ContainerImage{
@@ -21,6 +28,13 @@ const GlobalStyles = createGlobalStyle`
 ContainerImage img {
     width: 100%;
     height: auto;
+}
+
+//Fuentes
+
+@font-face {
+    font-family: 'Hind';
+    src: local('Hind'), url(${PrimaryFont}) format('woff');
 }
 `;
 
