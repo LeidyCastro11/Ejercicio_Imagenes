@@ -1,6 +1,7 @@
 import React from 'react' //Importar siempre react
 import '../utils/CSS/Cuerpo.estilos.css'
 import Leidy from '../utils/images/imagen 1.jpg'
+
 const Cuerpo = () => {
     return (
 

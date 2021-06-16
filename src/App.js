@@ -11,9 +11,9 @@ function App() {
         <Router>
           <GlobalStyles />
           <switch>
-            <Route path="/" exact component={Home} /> </switch>
-            <switch>
-            <Route path="/contact" exact component={Contact} /></switch>
+            <Route path="/" exact component={Home} /> 
+            <Route path="/contact" exact component={Contact} />
+          </switch>
         </Router>
     </div>
     

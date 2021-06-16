@@ -15,3 +15,14 @@
     font-style: italic;
 }
 
+
+/* Responsive */
+
+/* de 768 a 900 */
+
+@media only screen and (max-width: 768px) and (max-width: 900px) {
+    .Container_Cuerpo{
+        height: auto;
+    }
+}
+

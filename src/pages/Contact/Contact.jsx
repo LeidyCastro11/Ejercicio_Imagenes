@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, Footer} from './../../Components'
+import { Title, Footer} from '../../Components'
 
 const Contact = () => {
     return(

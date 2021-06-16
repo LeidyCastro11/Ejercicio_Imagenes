@@ -36,6 +36,19 @@ ContainerImage img {
     font-family: 'Hind';
     src: local('Hind'), url(${PrimaryFont}) format('woff');
 }
+
+//Estilos para botones
+
+button {
+    border-radius: 20%;
+    width: auto;
+    height: 50px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
 `;
 
 export default GlobalStyles;
